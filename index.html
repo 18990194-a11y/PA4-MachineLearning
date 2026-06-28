@@ -1,0 +1,186 @@
+<!--
+Página inspirada en: https://openai.com
+Autor: Rosa María Flores Echeverría
+Curso: Fundamentos de Machine Learning
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Machine Learning aplicado a la Estadística</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">ML <span>&amp; Estadística</span></a>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#que-es">¿Qué es?</a></li>
+          <li><a href="#relacion">Relación</a></li>
+          <li><a href="#aplicaciones">Aplicaciones</a></li>
+          <li><a href="#ventajas">Ventajas</a></li>
+          <li><a href="#conclusiones">Conclusiones</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="container">
+      <h1>Machine Learning <br>aplicado a la Estadística</h1>
+      <p>Descubre cómo el aprendizaje automático está transformando el análisis estadístico y la interpretación de datos en el mundo moderno.</p>
+      <img src="img/banner.png" alt="Machine Learning aplicado a la Estadística" class="hero-image">
+      <a href="#que-es" class="btn">Comenzar</a>
+    </div>
+  </section>
+
+  <section class="section" id="que-es">
+    <div class="container">
+      <h2>¿Qué es Machine Learning?</h2>
+      <div class="content-grid">
+        <div class="text">
+          <p>El Machine Learning (aprendizaje automático) es una rama de la inteligencia artificial que permite a los sistemas aprender y mejorar a partir de la experiencia sin ser programados explícitamente. Utiliza algoritmos que identifican patrones en los datos y toman decisiones con una intervención humana mínima.</p>
+          <p>En lugar de seguir reglas fijas, los modelos de Machine Learning se entrenan con grandes volúmenes de datos para reconocer relaciones complejas, realizar predicciones y automatizar procesos de toma de decisiones.</p>
+        </div>
+        <div class="card">
+          <h3>Tipos principales</h3>
+          <ul>
+            <li><strong>Aprendizaje supervisado:</strong> el modelo aprende con datos etiquetados.</li>
+            <li><strong>Aprendizaje no supervisado:</strong> el modelo encuentra patrones en datos sin etiquetar.</li>
+            <li><strong>Aprendizaje por refuerzo:</strong> el modelo aprende mediante prueba y error con recompensas.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="relacion">
+    <div class="container">
+      <h2>Relación entre Machine Learning y la Estadística</h2>
+      <div class="content-grid">
+        <div class="card">
+          <h3>Fundamentos comunes</h3>
+          <p>Ambas disciplinas comparten el objetivo de extraer conocimiento a partir de datos. La estadística proporciona las bases matemáticas y metodológicas que sustentan muchos algoritmos de Machine Learning.</p>
+        </div>
+        <div class="card">
+          <h3>Diferencias clave</h3>
+          <p>Mientras la estadística clásica se centra en la inferencia y la interpretación de modelos, el Machine Learning prioriza la precisión predictiva y el rendimiento computacional con grandes volúmenes de datos.</p>
+        </div>
+        <div class="card">
+          <h3>Sinergia actual</h3>
+          <p>Hoy en día, la integración de técnicas estadísticas con métodos de Machine Learning permite abordar problemas complejos como la predicción de series temporales, el análisis de riesgos y la segmentación de clientes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="aplicaciones">
+    <div class="container">
+      <h2>Aplicaciones</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">📊</div>
+          <h3>Predicción de tendencias</h3>
+          <p>Modelos que anticipan comportamientos del mercado, patrones de consumo y fluctuaciones económicas con alta precisión.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🩺</div>
+          <h3>Diagnóstico médico</h3>
+          <p>Algoritmos entrenados para detectar enfermedades, analizar imágenes clínicas y predecir la evolución de pacientes.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🏦</div>
+          <h3>Finanzas</h3>
+          <p>Detección de fraudes, evaluación de riesgos crediticios y optimización de carteras de inversión mediante aprendizaje automático.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📈</div>
+          <h3>Estadística oficial</h3>
+          <p>Instituciones estadísticas utilizan ML para mejorar la calidad de encuestas, imputar datos faltantes y generar estimaciones más precisas.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔬</div>
+          <h3>Investigación científica</h3>
+          <p>Análisis de grandes volúmenes de datos experimentales, descubrimiento de patrones en genómica y simulación de fenómenos complejos.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🏙️</div>
+          <h3>Ciudades inteligentes</h3>
+          <p>Optimización del tráfico, gestión de recursos energéticos y predicción de la demanda en servicios públicos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="ventajas">
+    <div class="container">
+      <h2>Ventajas</h2>
+      <div class="content-grid">
+        <div class="card">
+          <h3>Automación inteligente</h3>
+          <p>Reduce la intervención manual en tareas repetitivas de análisis de datos, liberando tiempo para la interpretación estratégica de resultados.</p>
+        </div>
+        <div class="card">
+          <h3>Precisión predictiva</h3>
+          <p>Los modelos de Machine Learning superan con frecuencia a los métodos estadísticos tradicionales en tareas de predicción cuando se dispone de grandes volúmenes de datos.</p>
+        </div>
+        <div class="card">
+          <h3>Escalabilidad</h3>
+          <p>Capacidad para procesar y analizar conjuntos de datos masivos que serían imposibles de abordar con técnicas estadísticas convencionales.</p>
+        </div>
+        <div class="card">
+          <h3>Adaptabilidad</h3>
+          <p>Los modelos pueden reentrenarse con nuevos datos para mejorar continuamente su rendimiento y adaptarse a cambios en los patrones subyacentes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="video">
+    <div class="container">
+      <h2>Video en Inglés</h2>
+      <div style="text-align:center;">
+        <video src="video/machinelearning.mp4" controls style="width:700px;max-width:100%;border-radius:15px;"></video>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="audio">
+    <div class="container">
+      <h2>Audio en Español</h2>
+      <div style="text-align:center;">
+        <audio src="audio/resumen.mp3" controls style="width:100%;max-width:700px;"></audio>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="conclusiones">
+    <div class="container">
+      <h2>Conclusiones</h2>
+      <div class="content-grid">
+        <div class="text">
+          <p>La integración del Machine Learning con la Estadística representa una evolución natural en la ciencia de datos. Lejos de reemplazar los métodos estadísticos clásicos, el aprendizaje automático los complementa y potencia, abriendo nuevas posibilidades para el análisis de datos complejos.</p>
+          <p>El futuro de la estadística aplicada pasa por la adopción de estas herramientas, formando profesionales capaces de combinar el rigor estadístico con la potencia computacional del Machine Learning para resolver los desafíos más apremiantes de nuestra sociedad.</p>
+        </div>
+        <div class="card highlight">
+          <p class="quote">"La estadística y el Machine Learning no son disciplinas rivales, sino aliadas naturales en la búsqueda de conocimiento a partir de los datos."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Rosa María Flores Echeverría</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
